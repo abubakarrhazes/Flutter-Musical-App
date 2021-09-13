@@ -13,7 +13,7 @@ class _HomePageState extends State<HomePage> {
       appBar: AppBar(
         title: Center(
           child: Text(
-            "AudioMax",
+            "Musical App",
             style: TextStyle(fontSize: 25, fontWeight: FontWeight.bold),
           ),
         ),
@@ -85,7 +85,6 @@ class _HomePageState extends State<HomePage> {
                       width: 20,
                     ),
                     Icon(
-
                       Icons.delete_outline,
                       size: 25,
                       color: Colors.white,
